@@ -28,14 +28,14 @@ The analysis was conducted entirely in Python using Pandas for data manipulation
 | Currency | Indian Rupees (₹) |
 | Source | Real Amazon India sales data |
 
-Dataset not included due to file size. Download the original from Kaggle: search "Amazon Sale Report" on kaggle.com
-
 **Key columns used:**
 - `Order ID`, `Date`, `Status`
 - `Category`, `Size`, `Quantity`, `Amount`
 - `City`, `State`
 - `B2B` — whether the order was a business or consumer purchase
 - `Fulfilment` — Amazon vs Merchant fulfilled
+
+Dataset not included due to file size. Download the original from Kaggle: search "Amazon Sale Report" on kaggle.com
 
 ---
 
