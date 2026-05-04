@@ -28,6 +28,8 @@ The analysis was conducted entirely in Python using Pandas for data manipulation
 | Currency | Indian Rupees (₹) |
 | Source | Real Amazon India sales data |
 
+Dataset not included due to file size. Download the original from Kaggle: search "Amazon Sale Report" on kaggle.com
+
 **Key columns used:**
 - `Order ID`, `Date`, `Status`
 - `Category`, `Size`, `Quantity`, `Amount`
@@ -122,8 +124,8 @@ B2B customers represent less than 1% of total revenue but have a **higher averag
 ```
 amazon-ecommerce-sales-analysis/
 │
-├── Amazon Sale Report.csv                  # Raw dataset
 ├── ecommerce_sales_analysis.ipynb          # Jupyter Notebook with full analysis
+├── .gitignore                              # Excludes large dataset file
 └── README.md                               # Project documentation
 ```
 
